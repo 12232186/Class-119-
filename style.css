@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right,#CDB4DB,#FFC8DD,#FFAFCC,#BDE0FE,#A2D2FF);
+}
+
+.main{
+    background-color:darkblue;
+    font-family: monospace;
+    font-weight: 900;
+    
+}
+.clear{
+    background-color:darkcyan ;
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+h1{
+    background-color: rgb(255, 0, 85);
+    color: rgb(44, 0, 102);
+}
+
+p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#show_sketch{
+    float: right;
+}
+
+
+canvas { 
+    border: 4px solid white;
+     border-radius:20px;
+      animation-name: example;
+       animation-duration: 4s;
+        margin-top: 50px;
+         animation-iteration-count: infinite;
+         } 
+         @keyframes example 
+         { from {box-shadow: 1px 1px 38px grey;}
+          to {box-shadow: 1px 1px 38px white;} 
+        }
